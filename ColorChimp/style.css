@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+#li1{
+    margin-left: 400px; 
+}
+
+#li2{
+    margin-left: 40px; 
+}
+
+#spa1{
+    margin-left: 550px; 
+}
+li{
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#heade ul{
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#0d0cb5;
+    margin-left: -43px;
+   
+}
+a{
+    text-decoration: none;
+}
+
+#heade{
+    height: 50px;
+    border-bottom: lightgrey 0.3px solid;
+   
+}
+#heade span svg{
+    margin-left: 20px;
+    fill:#0d0cb2;
+}
+
+#heade svg:hover{
+    fill: #05053f;
+    transition: 0.3s;
+}
+
+#Chimper{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 38px;
+    margin-left: 400px; 
+    color: black;
+    margin-top: 16.5px;
+}
+#home{
+    margin-left: 400px;
+    color:#0d0cb5;
+}
+.HOMIS{
+    justify-content: space-around;
+}
+.HOMIS li{
+    margin-left: 50px;
+    color: gray;
+}
+.HOMIS a:hover{
+    color: #0d0cb5;
+    cursor: pointer;
+}
+.HOMIS a{
+    color: gray;
+}
+#imagem1{
+    position: sticky;
+    margin-top: 20px;
+    filter: brightness(0.6);
+}
+
+#txt112{
+    position: absolute;
+    top: 50%;
+    left: 650px;
+    font-size: 50px; color: white;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#txt113{
+    position: absolute;
+    top: 57%;
+    left: 840px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#BOTAO1{
+    height: 50px; width: 100px;
+    border: 0ch;
+    border-radius: 40px;
+    position: absolute;
+    top: 63%;
+    left: 47%;
+    background-color: #0d0cb5;
+    color: white;
+    font-size: 1.0rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#BOTAO1:hover{
+    background-color: #0b0b77;
+}
+
+#fundoo{
+    position: absolute;
+    left: 20%; top: 103%;
+    background-color: black;
+     height: 580.03px; width: 1000px;
+     z-index: 99;
+}
+
+#fundobranco{
+    background-color:white; color: white;
+    position: absolute;
+    top: 115%;
+    height: 285px; width: 1902.5px;
+    z-index: 98;
+}
+
+#play{
+    position: absolute; 
+    top: 106%; left: 21.5%;
+    z-index: 100;
+}
+
+#imagem2{
+    position: absolute; 
+    top: 115%; left: 21.5%;
+    z-index: 100;
+}
+
+#play svg{
+    fill:#0d0cb2;
+}
+#wel1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500; font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 106%; left: 25.5%;
+    z-index: 100;
+}
+
+#wel2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500; font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 108.5%; left: 25.5%;
+    z-index: 100;
+}
+
+#hugo{
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;  
+    font-size: 32px;
+    top: 180%;  
+    margin-left: 350px;
+}
+
+#hugo ol{
+    display: inline-block;  
+    margin-right: 150px;
+}
+
+#hugo2{
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;  
+    color: rgba(0, 0, 0, 0.116);
+    font-size: 130px; font-weight: 700;
+    top: 164%;  
+    margin-left: 250px;
+}
+
+#hugo2 ol{
+    display: inline-block;  
+    margin-right: 130px;
+}
+
+#hugo3{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 7px;
+    position: absolute;
+    font-size: 14px;
+    top: 188%;  
+    margin-left: 350px;
+}
+
+#hugo4{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 7px;
+    position: absolute;
+    font-size: 14px;
+    top: 188%;  
+    margin-left: 700px;
+}
+
+#hugo5{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 7px;
+    position: absolute;
+    font-size: 14px;
+    top: 188%;  
+    margin-left: 1050px;
+}
+
+#Projects{
+    position: absolute; top: 210%; left: 35%;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;  
+    font-size: 64px;
+}
+
+#quad{
+    
+    position: absolute;top: 220%; left: 46%;
+    background-color: #0d0cb2;
+    width: 100px; height: 3px;
+}
+
+#Lorem{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 7px; font-size: 20px;
+    position: absolute;
+    top: 223%; left: 26%;
+}
+
+#LOREM1{
+    margin-left: 230px;
+}
+
+.fotA {
+    
+    margin-top: 47%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.fotA div {
+    overflow: hidden;
+    margin-top: 1.4%;
+    margin-left: 0.8%;
+    margin-right: 0.8%;
+}
+
+.fotA div img{
+    transition: all .1s ease-in-out;;   
+}
+
+
+.fotA div img:hover{ 
+    filter: brightness(0.6);
+         
+}
+#BOTAO2{
+    height: 50px; width: 200px;
+    border: 0ch;
+    border-radius: 40px;
+    position: absolute;
+    top: 284%;
+    left: 43%;
+    background-color: #0d0cb5;
+    color: white;
+    font-size: 1.0rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Projects1{
+    position: absolute; top: 295%; left: 38%;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;  
+    font-size: 64px;
+}
+
+#quad2{
+    position: absolute;top: 305%; left: 44.5%;
+    background-color: #0d0cb2;
+    width: 100px; height: 3px;
+}
+
+#hugo6{
+    font-family: 'Quicksand', sans-serif;
+    position: absolute; top: 310%; left: 10%; text-align: center;
+    font-size: 22px; 
+    margin-left: 350px;
+    color: #212529c7;
+}
+
+#imagem3{
+    border-radius: 50%;
+    position: absolute;
+    top: 333%; left: 45%;
+}
+
+#PORC{
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 334.5%; left: 49%;
+}
+
+#Projects2{
+    position: absolute; top: 350%; left: 45%;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;  
+    font-size: 64px;
+}
+
+#quad3{
+    position: absolute;top: 360%; left: 45.5%;
+    background-color: #0d0cb2;
+    width: 100px; height: 3px;
+}
+
+#quadcinza{
+    position: absolute;
+    top: 344%;
+    background-color: rgba(128, 128, 128, 0.142);
+    height: 900px; width: 1903.3px;
+    z-index: 99;
+}
+
+.imagens{
+    height: 420px; height: 10%;
+    margin: auto; margin-top: 48%;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+}
+
+.imagens div{
+    width: 10px; height: 210px;
+    margin: 30px;
+    align-items: center; 
+}
+
+.imagens1{
+    height: 420px; height: 10%;
+     margin-top: 1%; margin-left: 14%;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    line-height: 2.0;
+}
+
+.imagens1 div{
+    width: 10px; height: 210px;
+}
+
+.imagens img{
+    margin-left: 330px;
+}
+
+.frasess{
+    margin-left: 17.5%; line-height: 0.1;
+  
+    font-family: 'Quicksand', sans-serif;
+    color: #0b0b77;
+    font-size: 23px; width: 380px; height: 40px;
+}
+
+.frasess2{
+    margin-left: 17.5%; margin-top: 3%;
+    color: #2125298a;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px; width: 380px; height: 30px;
+}
+
+.frasess3{
+    margin-top: 6%;
+    margin-left: 17.5%; line-height: 1.0;
+    color: #212529;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px; width: 380px; 
+}
+
+.frasess4{
+    margin-top: 6%;
+    margin-left: 17.5%; line-height: 1.0;
+    color: #0b0b77;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px; width: 380px; 
+}
+
+.quadazul{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5.7%;
+    color: white;
+    background-color: #0d0cb2;
+    height: 150px; width: auto;
+    padding-top: 3%;
+}
+
+
+.quadcinzaes{
+    background-color: #333333;
+    height: 642px; width: 1903px;
+}
+
+.imagens49{
+    height: 420px; height: 10%;
+    display: grid;
+    grid-template-columns: 370px 370px 370px 370px;
+}
+
+.imagens49 svg{
+    fill: #a0a0a0;
+    margin-left: 3.5%;
+}
+
+.imagens49 svg:hover{
+    fill: #dfdcdc;
+}
+
+#OLOCO{
+    margin-left: -79%;
+}
+
+.frasess49{
+    margin-left: 17.5%; line-height: 0.1;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 17px; width: 380px; height: 40px;
+}
+
+.frasess249{
+    margin-left: 17.5%;
+    color: #a0a0a0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px; width: 380px; height: 30px;
+}
+
+#Copyright1{
+    width: 1000px; text-align: center;
+    border-top:  1PX solid #a0a0a0;
+    font-family: 'Quicksand', sans-serif;
+    color: #a0a0a0; font-size: 18px;
+    margin-top: 20%;
+    margin-left: 20%;
+    line-height: 4;
+}
+form {
+    display: flex;
+    position: relative;
+    height: 45px;
+}
+#Input-Email {
+    width: 500px;
+    height: 100%;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+    margin-left:1150px ;
+    z-index: 99;
+}
+
+#Input-Send {
+    height: 100%;
+    padding: 6px 12px;
+    font-size: 1rem;
+    position: absolute;
+    left: 90%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 0px;
+    background-color: #0d0cb5;
+    color: white;
+    margin-left: 1030px;
+    z-index: 99;
+}
+
+#quadCinza form{
+    margin-left: -30%;
+
+}
+
+
+
+.container-escrita{
+    display: grid;
+    grid-template-columns: 250.5px 250.5px;
+    row-gap: 2vw;
+     margin-left: 50%;
+     margin-top: 15%;
+     padding-right: 30px;
+     font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.container-escrita {
+    color: gray;
+
+}
+.container-escrita a{
+    color: white;
+
+
+}
+
+
+.escrita{
+    color: white;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   
+    
+}
+
+
+.escrita svg{
+    fill: white;
+}
